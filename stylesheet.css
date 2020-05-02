@@ -1,0 +1,27 @@
+body { font-family: 'Roboto Slab', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 18px;
+    color: #3a3a3a;
+}
+
+.container {max-width: 40rem; margin:auto auto; padding:2rem;}
+
+h1 {font-size:4rem; font-weight: 100;}
+
+.horlist {
+    list-style-type: none;
+    margin: 0; padding: 0;
+}
+.horlist li {
+    display: inline-block;
+    margin:0; padding: 0;
+    margin-right: 1rem;
+}
+
+
+div#gradients {
+    min-height: 10vw; width:100%;
+    position: relative; z-index: 2;
+    background-color: green ;
+    background: linear-gradient(45deg, #926,#16c,#084);
+    transform: skewY(-5deg); transform-origin: 0;
+}
