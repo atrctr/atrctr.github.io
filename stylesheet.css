@@ -5,7 +5,12 @@ body { font-family: 'Roboto Slab', Cambria, Cochin, Georgia, Times, 'Times New R
 
 .container {max-width: 40rem; margin:auto auto; padding:2rem;}
 
-h1 {font-size:4rem; font-weight: 100;}
+a {color:#555}
+a:hover {color: #777}
+a,a:hover {transition: all linear 0.25s;}
+h1 {font-size:6rem; font-weight: 100; margin-top:0;}
+h2 {margin-top:4rem;}
+h1, h2, h3, h4, h5 {padding: 0; margin-bottom:0.5em;}
 
 .horlist {
     list-style-type: none;
@@ -17,7 +22,6 @@ h1 {font-size:4rem; font-weight: 100;}
     margin-right: 1rem;
 }
 
-
 div#gradients {
     min-height: 10vw; width:100%;
     position: relative; z-index: 2;
@@ -25,3 +29,6 @@ div#gradients {
     background: linear-gradient(45deg, #926,#16c,#084);
     transform: skewY(-5deg); transform-origin: 0;
 }
+
+.text-centered {text-align: center;}
+.text-xl {font-size:2rem;}
