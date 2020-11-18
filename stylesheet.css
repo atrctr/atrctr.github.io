@@ -5,8 +5,8 @@ body { font-family: 'Roboto Slab', Cambria, Cochin, Georgia, Times, 'Times New R
 
 .container {max-width: 40rem; margin:auto auto; padding:2rem;}
 
-a {color:#555}
-a:hover {color: #777}
+a {color:#555;  text-decoration: none; }
+a:hover {color: #777;}
 a,a:hover {transition: all linear 0.25s;}
 h1 {font-size:6rem; font-weight: 100; margin-top:0;}
 h2 {margin-top:4rem;}
